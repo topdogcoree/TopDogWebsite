@@ -107,7 +107,12 @@ h6 {
 }
 @media screen and (max-width:900px) {
 	.jumbotron h1   { font-size: 9vw;
-	-webkit-text-stroke-width: 2px; }
+	-webkit-text-stroke-width: 2px; }.jumbotron h2   { font-size: 10vw;
+		margin-bottom: unset;
+		padding-bottom: unset;
+		font-weight: bolder;
+	-webkit-text-stroke-width: 1px; }
+  
   }
   @media screen and (max-width:600px) {
 	.jumbotron .container{
@@ -375,7 +380,65 @@ a:focus {
 	margin-top: 60px;
 	
 }
+.navbar-default .navbar-collapse .navbar-default .navbar-form{
+	width: 20px;
+
+}
 @media screen and (max-width:600px) {
+	.navbar-right{
+		background-color: #30014A;
+		margin-top: 0px !important;
+		padding: 10px;
+		border-radius: 25px;
+
+	}
+	.navbar-default .navbar-nav .active a{
+		all: unset;
+		border-radius: 10px !important;
+		padding: 10px;
+		margin: 30px;
+		font-size: .8em;
+		font-weight: normal;
+		transform: translateY(-10px) !important;
+		-webkit-text-stroke: 1px #ffffff!important;
+		text-shadow: 1px 1px 5px #30014A ;
+		color: #e5ff00 !important;
+		background-color: #e6e606 !important;
+	}
+	.navbar-default .navbar-nav .active a:hover{
+		all: unset;
+		border-radius: 10px !important;
+		padding: 15px;
+		font-size: .8em;
+		font-weight: normal;
+		-webkit-text-stroke: 1px #e6e606;
+		text-shadow: 1px 1px 5px #ffffff ;
+		color: #e5ff00;
+	}
+	.navbar-default .navbar-nav li a{
+		
+		all: unset;
+		padding: 10px;
+		margin: 25px;
+		border-radius: 10px !important;
+		padding: 15px;
+		font-size: .8em;
+		font-weight: normal;
+		-webkit-text-stroke: 1px #ffffff;
+		text-shadow: 1px 1px 5px #30014A;
+		color: #e5ff00 !important;
+	}
+	.navbar-default .navbar-nav li a:hover{
+		
+		all: unset;
+		border-radius: 10px !important;
+		padding: 15px;
+		font-size: .8em;
+		font-weight: 150;
+		-webkit-text-stroke: 1px #e6e606;
+		text-shadow: 1px 1px 5px #e6e606;
+		color: #e5ff00;
+	}
 	
 	.navbar-brand {
 		padding: unset;
