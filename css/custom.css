@@ -4,6 +4,7 @@ body {
 	background-color: #FFFF00;
 	font-family: CormorantGaramond-bold;
 	}
+
 	
 .navbar-default{
 	font-size: 1.5em;
@@ -126,8 +127,6 @@ h6 {
 	background-color: #000000;
 	color: #560384;
 	-webkit-text-stroke: 3px #e6e606;
-		
-	font-weight: 1200 !important;
 	text-align: center;
 	text-shadow: 10px 10px 13px black;
 	padding: 7%;
@@ -357,6 +356,21 @@ a:focus {
 	margin-top: 60px;
 	
 }
+@media screen and (max-width:600px) {
+	
+	.navbar-brand {
+		padding: unset;
+		margin-bottom: 25px;
+	}
+	.navbar-default {
+		box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+		margin: unset !important;
+		padding: unset !important;
+		height: fit-content !important;
+	  background-color: #560384;
+	}
+	img{scale: 60%;
+	margin-bottom: 25px !important;}}
 
 .navbar-default {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
@@ -366,6 +380,8 @@ a:focus {
   background-color: #560384;
 }
 .navbar-default .navbar-brand {
+	width: 100px;
+	height: 100px;
   color: #dd845a;
 }
 .navbar-default .navbar-brand:hover,
