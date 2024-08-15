@@ -320,7 +320,7 @@ a:focus {
 .navbar-default .navbar-nav .active a{
 	all: unset;
 	border-radius: 10px !important;
-	padding: 15px;
+	padding: 10px;
 	font-size: 1.4em;
 	font-weight: normal;
 	transform: translateY(-10px) !important;
@@ -384,12 +384,13 @@ a:focus {
 	width: 20px;
 
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
 	.navbar-right{
 		background-color: #30014A;
-		margin-top: 0px !important;
+		margin: 0 !important;
 		padding: 10px;
 		border-radius: 25px;
+		justify-content: center;
 
 	}
 	.navbar-default .navbar-nav .active a{
